@@ -14,7 +14,7 @@ import { mobileLinks } from './mobileLinks';
 import MobileSubmenu from './MobileSubmenu';
 import { ServicesContent } from './ServicesContent';
 
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { ResourcesContent } from './ResourcesContent';
 import { ChineseContent } from './ChineseContent';
 
