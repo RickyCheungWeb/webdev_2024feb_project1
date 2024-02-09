@@ -1,8 +1,7 @@
-import ActionButton from '@/shared/ActionButton';
 import { SelectedPage } from '@/shared/types';
 import { motion } from 'framer-motion';
 import { ReactElement } from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+
 import { Link } from 'react-router-dom';
 
 // StaggerAnimation#3
@@ -23,7 +22,7 @@ const AboutCard = ({
   image,
   title,
   description,
-  setSelectedPage,
+
   link,
 }: Props) => {
   return (

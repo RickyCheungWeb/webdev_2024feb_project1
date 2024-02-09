@@ -1,7 +1,6 @@
 import HText from '@/shared/HText';
 import { SelectedPage } from '@/shared/types';
 import { motion } from 'framer-motion';
-import beliefs from '@/assets/beliefs-600x300.png';
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
