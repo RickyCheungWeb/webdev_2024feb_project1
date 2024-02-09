@@ -6,14 +6,14 @@ type Props = {
 
 const ConnectCard = ({ title, description, image }: Props) => {
   const overlayStyles =
-    'p-5 absolute z-30 flex flex-col h-[380px] w-[450px] items-center  whitespace-normal bg-primary-500 text-center text-white opacity-0 transition duration-500 hover:opacity-90';
+    'p-5 absolute z-30 flex flex-col md:h-[380px] md:w-[450px] h-[300px] w-[325px] items-center  whitespace-normal bg-primary-500 text-center text-white opacity-0 transition duration-500 hover:opacity-90';
   return (
-    <li className='relative mx-5 inline-block h-[380px] w-[450px] '>
+    <li className='relative inline-block md:h-[380px] md:w-[450px] h-[300px] w-[325px] '>
       <div className={overlayStyles}>
         <p className='text-2xl'>{title}</p>
-        <p className='mt-5 text-xl'>{description}</p>
+        <p className='mt-5 md:text-xl '>{description}</p>
       </div>
-      <img src={image} alt={`${image}`} />
+      <img className='object-cover md:h-[380px] md:w-[450px] h-[300px] w-[325px]' src={image} alt={`${image}`} />
     </li>
   );
 };

@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 import john from '@/assets/John-Artwork.jpg';
 import act from '@/assets/Acts-Artwork-1.jpg';
 import play from '@/assets/Play-and-Discover-Image.jpg';
-import bibleVideo from '@/assets/bible_video.mp4';
+
 import catalyst from '@/assets/catalyst-logo.jpg';
 import kids from '@/assets/wrac-kids-logo.jpg';
 
@@ -95,7 +95,6 @@ const Home = ({ setSelectedPage }: Props) => {
               ...slides.map((slide) => (
                 <img key={slide.id} src={slide.image} />
               )),
-              <video src={bibleVideo} autoPlay muted loop />,
             ]}
           </Carousel>
         </div>

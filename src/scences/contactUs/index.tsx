@@ -10,7 +10,7 @@ type Props = {
 
 const ContactUs = ({ setSelectedPage }: Props) => {
   const inputStyle =
-    'mb-2 w-full rounded-lg text-black bg-white px-5 py-3 placeholder-black placeholder-opacity-40';
+    'mb-2 w-full rounded-lg text-black bg-white px-5 py-3 placeholder-gray-400 ';
 
   const {
     register,

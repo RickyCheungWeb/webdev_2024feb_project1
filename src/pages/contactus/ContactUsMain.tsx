@@ -10,7 +10,7 @@ type Props = {
 
 const ContactUsMain = ({ setSelectedPage }: Props) => {
   const inputStyle =
-    'mx-auto flex flex-col mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-black bg-white';
+    'mx-auto flex flex-col mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholder-gray-400 bg-white';
 
   const {
     register,

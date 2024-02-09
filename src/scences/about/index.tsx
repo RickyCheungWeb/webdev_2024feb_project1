@@ -21,28 +21,28 @@ const aboutitems: Array<AboutType> = [
     title: 'Sermons',
     description:
       'At West Ryde Anglican church, all our preaching is based on the Bible. We have four preaching series per year, which are aligned with the school terms, plus a summer series in January. They form the basis for the Sunday.',
-    link: '/sermons',
+    link: '/resourcesmain/sermons',
   },
   {
     image: <img className='h-72 w-full object-cover' src={beliefs} alt='' />,
     title: 'Our Beliefs',
     description:
       'We believe in one God, who makes and sustains everything. We believe that God exists in 3 persons who have complete unity– the Father, the Son (Jesus Christ), and the Holy Spirit. We believe that all humans have by nature.',
-    link: '/beliefs',
+    link: '/aboutmain/beliefs',
   },
   {
     image: <img className='h-72 w-full object-cover' src={mission} alt='' />,
     title: 'Our Mission and Vision',
     description:
       'By the grace of God, we pray that West Ryde Anglican Church will see the Gospel of Jesus Christ transform our local community, by bringing together people of all backgrounds as one family under Christ.',
-    link: '/vision',
+    link: '/aboutmain/vision',
   },
   {
     image: <img className='h-72 w-full object-cover' src={bibleteam} alt='' />,
-    title: 'Gospel Teams',
+    title: 'Gospel Teams (Feature Not Ready)',
     description:
       'Gospel Teams are smaller, usually home-based, mid-week meetings that connect people together at West Ryde Anglican Church for encouragement, accountability, Bible study and prayer.',
-    link: '/vision',
+    link: '/aboutmain/vision',
   },
 ];
 
