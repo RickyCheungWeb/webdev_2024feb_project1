@@ -1,4 +1,5 @@
 import Logo from '@/assets/Logo.png';
+import { NavLink } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons/component';
 
 const Footer = () => {
@@ -7,9 +8,14 @@ const Footer = () => {
       <div className='mx-auto w-5/6 gap-16 md:flex'>
         <div className='mt-16 basis-1/2 md:mt-0'>
           <button>
-            <a href='/'>
+            <NavLink
+              to='/'
+              onClick={() => {
+                window.scroll(0, 0);
+              }}
+            >
               <img src={Logo} alt='logo' />
-            </a>
+            </NavLink>
           </button>
           <p className='my-10'>Copyright © 2024 West Ryde Anglican Church</p>
           <p className='text-red-500'>

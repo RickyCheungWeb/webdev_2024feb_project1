@@ -38,9 +38,14 @@ const Navbar = ({ isTopOfPage }: Props) => {
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
             {/* LEFT */}
-            <Link to='/'>
+            <NavLink
+              to='/'
+              onClick={() => {
+                window.scroll(0, 0);
+              }}
+            >
               <img className='max-w-56 md:max-w-96' src={Logo} alt='logo' />
-            </Link>
+            </NavLink>
 
             {/* RIGHT */}
             {isAboveMediumScreens ? (

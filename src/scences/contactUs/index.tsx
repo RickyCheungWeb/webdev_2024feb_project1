@@ -92,8 +92,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               />
               {errors.email && (
                 <p className=' text-red-500'>
-                  {errors.email.type === 'required' &&
-                    'Email is required.'}
+                  {errors.email.type === 'required' && 'Email is required.'}
                   {errors.email.type === 'pattern' && 'Invalid email address.'}
                 </p>
               )}
@@ -118,7 +117,12 @@ const ContactUs = ({ setSelectedPage }: Props) => {
               >
                 SUMBIT
               </button>
-              <p className='text-red-500 text-xl'>This website serves as a preliminary representation of West Ryde Anglican Church and is currently in the process of being developed. For comprehensive details, please refer to the official website.</p>
+              <p className='text-red-500 text-xl'>
+                This website serves as a preliminary representation of West Ryde
+                Anglican Church and is currently in the process of being
+                developed. For comprehensive details, please refer to the
+                official website.
+              </p>
             </form>
           </motion.div>
           {/* Address */}
